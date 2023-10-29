@@ -15,21 +15,24 @@ html{
 .team{
     text-align: center;
     color: rgba(229,49,112,255);
+    
 }
 
 .lorem{
     text-align: center;
+    
 }
 
 .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card{
     background-color:rgba(15,14,23,255);
     width: 200px;
-    height: 290px;
+    height: 330px;
     margin: 10px;
     border-radius: 15px;
     color: white;
@@ -40,6 +43,30 @@ html{
     height: 180px;
     margin-bottom: 15px;
     background-size: cover;
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
 }
+
+.card h3{
+    padding: 10px;
+    text-align: center;
+}
+
+.card p{
+    padding: 10px;
+    text-align: center;
+}
+
+.card a{
+    padding: 10px;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
 
